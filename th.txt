@@ -1,0 +1,76 @@
+MERN:
+React js:
+4 tech
+
+m mongo db
+e express js
+r react js
+n node js
+<-------------------->
+JSP_ SERVLET --> jsp
+
+2004 --> 2008 -->
+PHP :
+BE: -->PHP
+FE: -->PHP
+--------------->
+Sec: PHP
+Frontend ui : PHP
+
+<----> tightly bouned
+FRONTEND ---> BACKEND
+MVC: N tire:
+
+CODE: react js
+
+Dektop: 
+  projects
+    mern
+     terminal -->
+
+NPM: node package manager:
+JDK --> JRE/JVM ---> .jar ---> packages ---->classes --> methods
+NODE --> NPM --->   node_modules --> buid/dist  --> packages ---> ts/js --->functions
+
+npm create vite
+press y
+learning26
+react
+javascript
+press no
+cd learning26
+npm install
+code .
+
+open new terminal
+npm run dev
+//at a time we can return only 1 tag in component
+  //every tag must have closing tag..
+
+  //JSX --> javascript xml
+
+react js: 
+2 type of component:
+1)class based comp:
+2)function based component: 16.x -->
+  
+
+  js:-->2 function,arrow function
+
+component naming conven:
+component name must starts with cap
+
+export default --> import -->without {}
+export const  --> import with {}
+
+
+	  
+
+
+
+
+
+
+
+
+

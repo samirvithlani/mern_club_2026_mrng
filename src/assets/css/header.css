@@ -1,0 +1,8 @@
+.header{
+    background-color: chocolate;
+    color: white;
+    height: 150px;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+}
