@@ -8,6 +8,7 @@ import Content from './components/Content'
 import { MapDemo1 } from './components/MapDemo1'
 import { MapDemo2 } from './components/MapDemo2'
 import { MapDemo3 } from './components/MapDemo3'
+import { MapDemo4 } from './components/MapDemo4'
 
 function App() {
   
@@ -19,7 +20,8 @@ function App() {
     <div>
       {/* <MapDemo1></MapDemo1> */}
       {/* <MapDemo2></MapDemo2> */}
-      <MapDemo3></MapDemo3>
+      {/* <MapDemo3></MapDemo3> */}
+      <MapDemo4></MapDemo4>
       {/* <Header></Header>
       <Content></Content>
       <Footer></Footer> */}
