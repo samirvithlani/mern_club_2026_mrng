@@ -12,6 +12,7 @@ import { MapDemo4 } from './components/MapDemo4'
 import { Route, Routes } from 'react-router-dom'
 import { Movis } from './components/hotstar/Movis'
 import { Shows } from './components/hotstar/Shows'
+import { Navbar } from './components/Navbar'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
   return (
     
     <div>
+      <Navbar></Navbar>
       <Routes>
           <Route path='/movies' element = {<Movis/>}></Route>
           <Route path='/shows' element ={<Shows/>}></Route>
