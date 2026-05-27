@@ -64,7 +64,24 @@ export default --> import -->without {}
 export const  --> import with {}
 
 
-	  
+react routing:
+commponent urls:	  
+
+react-router-dom
+npm i react-router-dom
+
+<BrowserRouter> : to eanble routing in react app: main.jsx
+<Routes> : it will hold all route
+<Route> :it will create url for component:
+
+
+hotstar [f]
+  -->Movies
+  -->Shows
+
+mmain.jsx --- BrowserRouter
+App.js ->div clean --><Routes>  
+
 
 
 
