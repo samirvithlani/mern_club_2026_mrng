@@ -83,6 +83,16 @@ mmain.jsx --- BrowserRouter
 App.js ->div clean --><Routes>  
 
 
+react routing:
+
+
+npm i react-router-dom
+
+<BrowserRouter> : to eanble routing in react application: main.jsx
+<Routes> it will hold all singular route: app.js
+<Route> : it will create url for component:app.js
+
+
 
 
 
