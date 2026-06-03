@@ -13,6 +13,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Movis } from './components/hotstar/Movis'
 import { Shows } from './components/hotstar/Shows'
 import { Navbar } from './components/Navbar'
+import { Watch } from './components/hotstar/Watch'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
       <Routes>
           <Route path='/movies' element = {<Movis/>}></Route>
           <Route path='/shows' element ={<Shows/>}></Route>
+          <Route path='/watch/:name' element ={<Watch/>}></Route>
       </Routes>
     </div>
   )
