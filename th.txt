@@ -94,6 +94,19 @@ npm i react-router-dom
 
 
 
+Students comp : array -> id name -->10 
+array id,name,marks[{"maths":90,..}]
+StudentResult : id --> result
+
+rollNo - {id}
+name  - {}
+
+result:
+maths -->
+sc --->
+en --->
+
+total ->
 
 
 

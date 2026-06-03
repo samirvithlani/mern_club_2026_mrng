@@ -32,6 +32,11 @@ export const Navbar = () => {
                 Shows
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/teams">
+                Teams
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

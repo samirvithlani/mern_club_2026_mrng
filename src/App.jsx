@@ -14,6 +14,8 @@ import { Movis } from './components/hotstar/Movis'
 import { Shows } from './components/hotstar/Shows'
 import { Navbar } from './components/Navbar'
 import { Watch } from './components/hotstar/Watch'
+import { Teams } from './components/hotstar/Teams'
+import { TeamDetail } from './components/hotstar/TeamDetail'
 
 function App() {
   
@@ -26,6 +28,8 @@ function App() {
           <Route path='/movies' element = {<Movis/>}></Route>
           <Route path='/shows' element ={<Shows/>}></Route>
           <Route path='/watch/:name' element ={<Watch/>}></Route>
+          <Route path='/teams' element = {<Teams/>}></Route>
+          <Route path='/teamdetail/:id' element ={<TeamDetail/>}></Route>
       </Routes>
     </div>
   )
