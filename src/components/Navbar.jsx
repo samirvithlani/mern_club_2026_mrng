@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-  <div>
+    <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
           Navbar
@@ -23,24 +23,52 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <Link class="nav-link" to="/movies">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/movies"
+              >
                 Movies
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item active">
-              <Link class="nav-link" to="/shows">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/shows"
+              >
                 Shows
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item active">
-              <Link class="nav-link" to="/teams">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/teams"
+              >
                 Teams
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item active">
-              <Link class="nav-link" to="/questions">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/questions"
+              >
                 questions
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
