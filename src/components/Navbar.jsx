@@ -37,6 +37,11 @@ export const Navbar = () => {
                 Teams
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/questions">
+                questions
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

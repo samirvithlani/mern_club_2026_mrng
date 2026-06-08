@@ -16,6 +16,8 @@ import { Navbar } from './components/Navbar'
 import { Watch } from './components/hotstar/Watch'
 import { Teams } from './components/hotstar/Teams'
 import { TeamDetail } from './components/hotstar/TeamDetail'
+import { Questions } from './components/Questions'
+import { QuestionDetail } from './components/QuestionDetail'
 
 function App() {
   
@@ -30,6 +32,8 @@ function App() {
           <Route path='/watch/:name' element ={<Watch/>}></Route>
           <Route path='/teams' element = {<Teams/>}></Route>
           <Route path='/teamdetail/:id' element ={<TeamDetail/>}></Route>
+          <Route path='/questions' element ={<Questions/>}></Route>
+          <Route path='/questiondetail' element ={<QuestionDetail/>}></Route>
       </Routes>
     </div>
   )
