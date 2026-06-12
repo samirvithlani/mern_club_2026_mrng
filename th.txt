@@ -109,6 +109,30 @@ en --->
 total ->
 
 
+hooks in react js:
+hook is either built or udf or 3rd party life cycle function
+all hook name starts with use
+eg: useState
+useMemo
+useEffec
+.
+.
+-->
+DOM: document object model:
+
+js --> html --> dom manpulation
+
+1000 -->line object -> 1 line add --> update
+
+1000 single  + 1 line --> 1001 line new object
+
+react js has created virtual dom:
+DOM --> light weighted copy
+changes -->vdom --> compare --> og dom --> changes push
+
+Task:
+what is virtaul dom :
+
 
 
 

@@ -70,6 +70,43 @@ export const Navbar = () => {
                 questions
               </NavLink>
             </li>
+             <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/funcall"
+              >
+                fun call
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/usestatedemo1"
+              >
+                usestatedemo1
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/usestatedemo2"
+              >
+                usestatedemo2
+              </NavLink>
+            </li>
+            
           </ul>
         </div>
       </nav>

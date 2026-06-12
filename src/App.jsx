@@ -18,6 +18,9 @@ import { Teams } from './components/hotstar/Teams'
 import { TeamDetail } from './components/hotstar/TeamDetail'
 import { Questions } from './components/Questions'
 import { QuestionDetail } from './components/QuestionDetail'
+import { FuncCall } from './components/FuncCall'
+import { UseStateDemo1 } from './components/UseStateDemo1'
+import { UseStateDemo2 } from './components/UseStateDemo2'
 
 function App() {
   
@@ -34,6 +37,9 @@ function App() {
           <Route path='/teamdetail/:id' element ={<TeamDetail/>}></Route>
           <Route path='/questions' element ={<Questions/>}></Route>
           <Route path='/questiondetail' element ={<QuestionDetail/>}></Route>
+          <Route path='/funcall' element  = {<FuncCall/>}></Route>
+          <Route path='/usestatedemo1' element = {<UseStateDemo1/>}></Route>
+          <Route path='/usestatedemo2' element = {<UseStateDemo2/>}></Route>
       </Routes>
     </div>
   )
