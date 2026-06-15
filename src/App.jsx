@@ -21,6 +21,7 @@ import { QuestionDetail } from './components/QuestionDetail'
 import { FuncCall } from './components/FuncCall'
 import { UseStateDemo1 } from './components/UseStateDemo1'
 import { UseStateDemo2 } from './components/UseStateDemo2'
+import { Employees } from './components/Employees'
 
 function App() {
   
@@ -40,6 +41,7 @@ function App() {
           <Route path='/funcall' element  = {<FuncCall/>}></Route>
           <Route path='/usestatedemo1' element = {<UseStateDemo1/>}></Route>
           <Route path='/usestatedemo2' element = {<UseStateDemo2/>}></Route>
+          <Route path='/employees' element = {<Employees/>}></Route>
       </Routes>
     </div>
   )

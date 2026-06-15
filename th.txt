@@ -134,7 +134,15 @@ Task:
 what is virtaul dom :
 
 
+create usestte of array type:
+useState([])
 
+create functio which will create random no and you have to print on browser.
 
+generate --> click
 
+props:
+parent compont child comp data --> props
+
+reusablity of componant
 
