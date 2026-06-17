@@ -1,16 +1,10 @@
 import React from 'react'
 
-//props stands for property
-//props - {}
-export const EmployeeList = (props) => {
-    //{title:"",empList:[]}
-    console.log(props)
+export const SelectedEmployees = (props) => {
   return (
-    <div style={{textAlign:"center"}}>
-        <h1>Employee List - {props.title}</h1>
-        {/* <button className='btn btn-primary' onClick={props.testEmp}>TEST</button> */}
-        <button className='btn btn-primary' onClick={()=>{props.testEmp(100)}}>TEST</button>
-        <table className='table'>
+    <div>
+        <h1>SELECTED EMPLOYEES</h1>
+         <table className='table'>
             <thead>
                 <tr>
                     <th>id</th>
@@ -20,13 +14,13 @@ export const EmployeeList = (props) => {
             </thead>
             <tbody>
                 {
-                    props.empList.map((emp)=>{
+                    props.selectedEmp.map((emp)=>{
                         return <tr>
                             <td>{emp.id}</td>
                             <td>{emp.name}</td>
                             <td>
                                 <button className='btn btn-danger' onClick={()=>{props.deleteUser(emp.id)}}>DELETE</button>
-                                <button className='btn btn-primary' onClick={()=>{props.empSelections(emp.id)}}>SELECT</button>
+                                <button className='btn btn-primary' onClick={()=>{}}>SELECT</button>
                             </td>
                         </tr>
                     })

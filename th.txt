@@ -146,3 +146,8 @@ parent compont child comp data --> props
 
 reusablity of componant
 
+Employees --> c --> employeeList
+Employees --> c --> SelectedEMployee
+
+
+?. optional operators

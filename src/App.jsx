@@ -22,6 +22,8 @@ import { FuncCall } from './components/FuncCall'
 import { UseStateDemo1 } from './components/UseStateDemo1'
 import { UseStateDemo2 } from './components/UseStateDemo2'
 import { Employees } from './components/Employees'
+import { TableDemo } from './components/TableDemo'
+import { MyTable2 } from './components/MyTable2'
 
 function App() {
   
@@ -42,6 +44,8 @@ function App() {
           <Route path='/usestatedemo1' element = {<UseStateDemo1/>}></Route>
           <Route path='/usestatedemo2' element = {<UseStateDemo2/>}></Route>
           <Route path='/employees' element = {<Employees/>}></Route>
+          <Route path='/tabledemo' element ={<TableDemo/>}></Route>
+          <Route path='tabledemo2' element ={<MyTable2></MyTable2>}></Route>
       </Routes>
     </div>
   )

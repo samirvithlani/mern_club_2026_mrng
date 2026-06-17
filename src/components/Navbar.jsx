@@ -118,6 +118,30 @@ export const Navbar = () => {
                 employees
               </NavLink>
             </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/tabledemo"
+              >
+                table demo
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/tabledemo2"
+              >
+                table demo 2
+              </NavLink>
+            </li>
             
             
           </ul>
