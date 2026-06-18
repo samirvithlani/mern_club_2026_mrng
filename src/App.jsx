@@ -24,6 +24,7 @@ import { UseStateDemo2 } from './components/UseStateDemo2'
 import { Employees } from './components/Employees'
 import { TableDemo } from './components/TableDemo'
 import { MyTable2 } from './components/MyTable2'
+import { InputDemo1 } from './components/InputDemo1'
 
 function App() {
   
@@ -46,6 +47,7 @@ function App() {
           <Route path='/employees' element = {<Employees/>}></Route>
           <Route path='/tabledemo' element ={<TableDemo/>}></Route>
           <Route path='tabledemo2' element ={<MyTable2></MyTable2>}></Route>
+          <Route path='/inputdemo1' element= {<InputDemo1/>}></Route>
       </Routes>
     </div>
   )
