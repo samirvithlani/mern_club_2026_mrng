@@ -151,3 +151,23 @@ Employees --> c --> SelectedEMployee
 
 
 ?. optional operators
+
+form:
+onchage ---> state  -->custom hook
+
+3rd party lib
+react-hook-form  , formik
+
+npm i react-hook-form
+
+
+
+handleSubmit =(cb)=>{
+
+  //data process
+  cb(data)
+
+
+}
+
+

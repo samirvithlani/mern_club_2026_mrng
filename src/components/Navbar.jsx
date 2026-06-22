@@ -151,9 +151,35 @@ export const Navbar = () => {
                 }
                 to="/inputdemo1"
               >
+                input demo1
+              </NavLink>
+            </li>
+
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/inputdemo2"
+              >
                 input demo2
               </NavLink>
             </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/formdemo1"
+              >
+                form demo 1
+              </NavLink>
+            </li>
+            
             
             
           </ul>
