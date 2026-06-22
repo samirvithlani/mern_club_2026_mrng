@@ -27,6 +27,7 @@ import { MyTable2 } from './components/MyTable2'
 import { InputDemo1 } from './components/InputDemo1'
 import { InputDemo2 } from './components/InputDemo2'
 import { FormDemo1 } from './components/form/FormDemo1'
+import { FormDemo2 } from './components/form/FormDemo2'
 
 function App() {
   
@@ -52,6 +53,7 @@ function App() {
           <Route path='/inputdemo1' element= {<InputDemo1/>}></Route>
           <Route path='/inputdemo2' element= {<InputDemo2/>}></Route>
           <Route path='/formdemo1' element ={<FormDemo1/>}></Route>
+          <Route path='/formdemo2' element ={<FormDemo2/>}></Route>  
 
       </Routes>
     </div>

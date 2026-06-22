@@ -169,5 +169,29 @@ handleSubmit =(cb)=>{
 
 
 }
+7 builtin validation
+
+required
+min
+max
+minLength
+maxLength
+pattern
+validate
+
+
+{
+  required:
+  {
+    value:true,
+    message:"name is required"
+  }
+}
+{
+            required:{
+                value:true,
+                message:"name is required*"
+            }
+}
 
 
