@@ -118,7 +118,7 @@ export const Navbar = () => {
                 employees
               </NavLink>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -153,7 +153,7 @@ export const Navbar = () => {
               >
                 input demo1
               </NavLink>
-            </li>
+            </li> */}
 
             <li class="nav-item active">
               <NavLink
@@ -189,6 +189,30 @@ export const Navbar = () => {
                 to="/formdemo2"
               >
                 form demo 2
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/formdemo3"
+              >
+                form demo 3
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/formdemo4"
+              >
+                form demo 4
               </NavLink>
             </li>
             
