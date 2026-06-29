@@ -227,6 +227,18 @@ export const Navbar = () => {
                 form demo 5
               </NavLink>
             </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/formdemo6"
+              >
+                form demo 6
+              </NavLink>
+            </li>
             
             
             
