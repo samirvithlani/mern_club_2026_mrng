@@ -28,6 +28,16 @@ export const ApiDemo1 = () => {
     useEffect(()=>{
         getAllUsers()
     },[])
+        const deleteUser = async(id) => {
+            const res = await axios.delete(`https://node5.onrender.com/user/user/${id}`)
+            console.log(res) //axios
+            if(res.status==204){
+                alert("user deleted..")
+                getAllUsers()
+            }
+        }
+
+    
     //[] ->state variable --> change --> recall
   return (
     <div style={{textAlign:"center"}}>
@@ -35,7 +45,9 @@ export const ApiDemo1 = () => {
 
         {/* <button onClick={getAllUsers}>GET</button> */}
         {message}
-        <MyTable headers ={headers} data ={users}></MyTable>
+        <MyTable headers ={headers} data ={users} renderAction={(user) => (
+            <button onClick={() => deleteUser(user._id)}>Delete</button> )}
+        ></MyTable>
     </div>
     
   )

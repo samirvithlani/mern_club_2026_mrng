@@ -25,6 +25,12 @@ export const MyTable = (props) => {
                     return <td>{tr[td]}</td>
                   })
                 }
+                 {
+                  props.renderAction &&
+                  <td>
+                    {props.renderAction(tr)}
+                  </td>
+                }
               </tr>
             })
           }
