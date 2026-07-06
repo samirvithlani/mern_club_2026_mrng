@@ -154,7 +154,7 @@ export const Navbar = () => {
                 input demo1
               </NavLink>
             </li> */}
-
+{/* 
             <li class="nav-item active">
               <NavLink
                 className={({ isActive }) =>
@@ -249,6 +249,19 @@ export const Navbar = () => {
                 to="/formdemo7"
               >
                 formdemo7
+              </NavLink>
+            </li> */}
+
+             <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
+                to="/apidemo1"
+              >
+                apidemo1
               </NavLink>
             </li>
             

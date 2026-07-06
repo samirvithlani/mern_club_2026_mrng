@@ -194,4 +194,19 @@ validate
             }
 }
 
+API:
+GET
+POST
+put
+delete
+
+
+fetch:
+axios: 3rd 70
+
+useEffect: to handle side effect in react js we will use Effect
+
+hook:
+component life cycle:
+
 
