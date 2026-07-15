@@ -36,6 +36,7 @@ import { FormDemo7 } from "./components/form/FormDemo7";
 import { ApiDemo1 } from "./components/api/ApiDemo1";
 import { ApiDemo5 } from "./components/api/ApiDemo5";
 import { Slide, ToastContainer } from "react-toastify";
+import { UpdateUser } from "./components/api/UpdateUser";
 
 function App() {
   return (
@@ -79,6 +80,7 @@ function App() {
         <Route path="/formdemo7" element={<FormDemo7 />}></Route>
         <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
         <Route path="/apidemo5" element={<ApiDemo5 />}></Route>
+        <Route path="/updateuser/:id" element ={<UpdateUser/>}></Route>
       </Routes>
     </div>
   );

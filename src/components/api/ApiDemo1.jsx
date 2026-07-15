@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { MyTable } from '../MyTable'
+import { Loader } from '../Loader'
+import { Link } from 'react-router-dom'
 
 export const ApiDemo1 = () => {
     //docu 
@@ -12,9 +14,11 @@ export const ApiDemo1 = () => {
     //Data if yes data type
     const [message, setmessage] = useState("")
     const [users, setusers] = useState([])
+    const [isLoading, setisLoading] = useState(false)
 
 
     const getAllUsers  = async()=>{
+        setisLoading(true)
         const res = await axios.get("https://node5.onrender.com/user/user/")
         console.log(res) //axios object
         console.log(res.data)
@@ -22,6 +26,7 @@ export const ApiDemo1 = () => {
         console.log(res.data.data)
         setmessage(res.data.message)
         setusers(res.data.data)
+        setisLoading(false)
     }
     const headers = Object.keys(users.length>0 && users[0])
 
@@ -42,11 +47,19 @@ export const ApiDemo1 = () => {
   return (
     <div style={{textAlign:"center"}}>
         <h1>ApiDemo1</h1>
+        {
+            isLoading && <Loader/>
+        }
 
         {/* <button onClick={getAllUsers}>GET</button> */}
         {message}
         <MyTable headers ={headers} data ={users} renderAction={(user) => (
-            <button onClick={() => deleteUser(user._id)}>Delete</button> )}
+            <>
+                <button className='btn btn-danger' onClick={() => deleteUser(user._id)}>Delete</button> 
+                <Link className='btn btn-warning' to={`/updateuser/${user._id}`} >Update</Link>
+            </>
+        
+        )}
         ></MyTable>
     </div>
     

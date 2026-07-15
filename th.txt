@@ -210,3 +210,5 @@ hook:
 component life cycle:
 
 
+update --->componnet ---> form -->old detail -->db fetch --> form fill -->edit --->update
+
