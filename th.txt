@@ -212,3 +212,64 @@ component life cycle:
 
 update --->componnet ---> form -->old detail -->db fetch --> form fill -->edit --->update
 
+
+
+
+API :
+application programming interface:
+
+2 diff tech:
+frontend tech:
+	database: ---> dynamic data:
+	andorid,react, angulat
+backend tech:
+	database --> dynamic -->
+	pythhon java node php .net
+
+
+b java 
+	new --->
+f react
+	can we create java objectc in react??/
+	possible
+
+
+still java ---> react ?????
+simlar ---> url --> frontend backend...
+{} -->dict,
+[]
+
+js --array json
+API: -->data ---> type -->json
+
+Data operation: 
+4
+url -->type operation:
+
+create
+retrive
+update
+delete
+
+backend frontend developer documnetation:
+request method: url -->request method????
+
+as react dev we are consumer of api:
+
+GET : data db -->fetch frontend send 
+POST : frontedn data -->get ->backend post --->
+PUT  :frontend data update --> backend put
+DELETE:
+
+frontend dev GET??? data display
+
+zomato : map -->google map --> code????****
+map -->api -->documnetation ??? prams free paid, auth??? request method??
+???
+internet dummy ??
+
+only GET api can call from broser dirclty
+
+package axios
+
+

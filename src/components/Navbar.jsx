@@ -271,6 +271,18 @@ export const Navbar = () => {
                     ? "nav-link text-warning font-weight-bold"
                     : "nav-link text-light"
                 }
+                to="/apidemo1b"
+              >
+                apidemo1b
+              </NavLink>
+            </li>
+            <li class="nav-item active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link text-warning font-weight-bold"
+                    : "nav-link text-light"
+                }
                 to="/apidemo5"
               >
                 apidemo5
